@@ -1,0 +1,17 @@
+table {
+    border : 1px solid darkblue;
+    width : 25%;
+}
+
+.joueur {
+
+    background-color: lightcoral;
+}
+
+
+td {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+
+}

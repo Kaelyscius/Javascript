@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        div.enligne {
+            display:inline;
+        }
+        .rollnot {
+            opacity:0.5;
+            /*Opacity doesn't work in IE6 hence the following line*/
+            filter : alpha(opacity=50);
+        }
+        .win {
+            background-color:green;
+        }
+    </style>
+
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="yams.js"></script>
+
+</head>
+
+<body>
+<div id="board">
+    <div id="de1" class='enligne'><img src="images/DES1.jpg"></div>
+    <div id="de2" class='enligne'><img src="images/DES1.jpg"></div>
+    <div id="de3" class='enligne'><img src="images/DES1.jpg"></div>
+    <div id="de4" class='enligne'><img src="images/DES1.jpg"></div>
+    <div id="de5" class='enligne'><img src="images/DES1.jpg"></div>
+    <input id="roll" type='button' value='roll' >
+    <br>
+    <input id="new" type='button' value='Commencez une partie'>
+</div>
+
+<br><br>
+<div id="players">
+
+
+
+</div>
+<!-- ajout d'un div pour les messages -->
+<div id="gagne">
+    Appuyez sur le bouton pour commencer une partie
+</div>
+
+</body>
+
+</html>
